@@ -12,18 +12,18 @@ function App() {
   return (
     <Grid container >
       <Grid item xs={12} align="center">
-        <Typography variant="h1" compact="h1" style={{ fontFamily: 'SIFFON_BASIC', fontSize: "5em" }}>
+        <Typography variant="h1" compact="h1" sx={{ color: "#014725" }}  style={{  fontFamily: 'SIFFON_BASIC', fontSize: "5em" }}>
           WayneHacks
         </Typography>
       </Grid>
       <Grid item xs={12} align="center" >
-        <Typography variant="h4" compact="h4" style={{ fontFamily: 'GlacialIndifference' }}>
-          Virtual Hackathon
+        <Typography variant="h5" compact="h5" sx={{ color: "#014725",  letterSpacing: 5 }}  style={{ fontFamily: 'GlacialIndifference-Bold' }}>
+          VIRTUAL HACKATHON
         </Typography>
       </Grid>
       <Grid item xs={12} align="center">
-        <Typography variant="h5" compact="h5">
-          March 3-5
+        <Typography variant="h6" compact="h6" sx={{ color: "#014725", letterSpacing: 5}} style={{ fontFamily: 'GlacialIndifference-Bold', }}>
+          MARCH 3-5
         </Typography>
       </Grid>
       <Grid item xs={12} align="center">
