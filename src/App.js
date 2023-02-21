@@ -16,8 +16,8 @@ function App() {
           WayneHacks
         </Typography>
       </Grid>
-      <Grid item xs={12} align="center" style={{ fontFamily: 'GlacialIndifference-Bold', }}>
-        <Typography variant="h4" compact="h4">
+      <Grid item xs={12} align="center" >
+        <Typography variant="h4" compact="h4" style={{ fontFamily: 'GlacialIndifference' }}>
           Virtual Hackathon
         </Typography>
       </Grid>
