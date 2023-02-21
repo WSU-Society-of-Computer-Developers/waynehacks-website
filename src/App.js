@@ -12,9 +12,9 @@ function App() {
   return (
     <Grid container >
       <Grid item xs={12} align="center">
-          <Typography variant="h1" compact="h1">
-            WayneHacks
-          </Typography>
+        <Typography variant="h1" compact="h1" style={{ fontFamily: 'SIFFON_BASIC', fontSize: "5em" }}>
+          WayneHacks
+        </Typography>
       </Grid>
       <Grid item xs={12} align="center">
         <Typography variant="h4" compact="h4">
@@ -27,22 +27,23 @@ function App() {
         </Typography>
       </Grid>
       <Grid item xs={12} align="center">
-        <Button 
-          sx={{ 
-            color: '#014725', 
-            backgroundColor: 'white', 
+        <Button
+          sx={{
+            color: '#014725',
+            backgroundColor: 'white',
             opacity: .9,
-            borderColor: '#014725', 
+            borderColor: '#014725',
             borderRadius: '50px',
             fontWeight: 'bold',
-            border:'2px solid',
+            border: '2px solid',
             '&:hover': {
               backgroundColor: '#fff',
               opacity: 1,
               color: '#014725',
-          }}} 
+            }
+          }}
           variant="contained">
-            Register
+          Register
         </Button>
       </Grid>
     </Grid>
