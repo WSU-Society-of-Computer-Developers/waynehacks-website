@@ -17,6 +17,11 @@
   src: local('GlacialIndifference-Regular'), url(./fonts/GlacialIndifference-Regular.otf) format('opentype');
 }
 
+@font-face {
+  font-family: 'GlacialIndifference-Bold';
+  src: local('GlacialIndifference-Bold'), url(./fonts/GlacialIndifference-Bold.otf) format('opentype');
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
