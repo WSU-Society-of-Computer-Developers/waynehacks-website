@@ -81,7 +81,12 @@ function App() {
           </Grid>
           <Grid item xs={12} align="left" sx={{ paddingLeft: 10, paddingRight: 10 }}>
             <Typography variant="h6" compact="h6" sx={{ color: "#1bf58b", paddingTop: 2 }} style={{ fontFamily: 'GlacialIndifference-Regular', }}>
-              COMING SOON
+              Contact us at info@waynehacks.com
+  
+            </Typography>
+            <Typography variant="h6" compact="h6" sx={{ color: "#1bf58b", paddingTop: 2 }} style={{ fontFamily: 'GlacialIndifference-Regular', }}>
+     
+              More FAQs Coming Soon
             </Typography>
           </Grid>
         </div>
