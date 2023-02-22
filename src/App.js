@@ -9,7 +9,7 @@ import { Fade, Grow } from "@mui/material";
 /** @type { [key:string]: SxProps<Theme> | undefined }*/
 const classes = {
   title: {
-    fontSize: { lg: "7vw", xs: "4em" },
+    fontSize: { lg: "7vw", sm: "4em", xs: "14vw" },
     fontFamily: 'SIFFON_BASIC',
     color: "#1bf58b"
   }
@@ -33,7 +33,7 @@ function App() {
       <Fade in timeout={2000}>
         <div>
           <Grid item xs={12} align="center" >
-            <Typography variant="h5" compact="h5" sx={{ color: "#1bf58b", letterSpacing: 3 }} style={{ fontFamily: 'GlacialIndifference-Bold', }}>
+            <Typography variant="h5" compact="h5" sx={{ color: "#1bf58b", letterSpacing: 3}} style={{ fontFamily: 'GlacialIndifference-Bold' }}>
               VIRTUAL HACKATHON
             </Typography>
           </Grid>
@@ -48,7 +48,7 @@ function App() {
                 color: '#014725',
                 backgroundColor: 'white',
                 opacity: .9,
-                fontSize: "1.5em",
+                fontSize: "1.6em",
                 borderColor: '#014725',
                 borderRadius: '50px',
                 fontWeight: 'bold',
