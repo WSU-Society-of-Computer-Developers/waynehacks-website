@@ -4,34 +4,40 @@ import Button from '@mui/material/Button'
 import Typography from "@mui/material/Typography";
 import './App.css';
 import { borderLeft } from "@mui/system";
-import { hover } from "@testing-library/user-event/dist/hover";
 
-
-
+/** @type { [key:string]: SxProps<Theme> | undefined }*/
+const classes = {
+  title: {
+    fontSize: { lg: "7vw", xs: "4em" },
+    fontFamily: 'SIFFON_BASIC',
+    color: "#014725"
+  }
+}
 function App() {
+
   return (
-    <Grid container 
+    <Grid container
       direction="column"
       //alignItems="center"
       justifyContent="center"
       style={{ minHeight: '100vh' }}
     >
-      <Grid item xs={12} align="center" sx={{paddingTop: 30}}>
-        <Typography variant="h1" compact="h1" sx={{ color: "#014725" }}  style={{  fontFamily: 'SIFFON_BASIC', fontSize: "6em" }}>
+      <Grid item xs={12} align="center" sx={{ paddingTop: 30 }}>
+        <Typography variant="h1" compact="h1" sx={classes.title}>
           WayneHacks
         </Typography>
       </Grid>
       <Grid item xs={12} align="center" >
-        <Typography variant="h5" compact="h5" sx={{ color: "#014725",  letterSpacing: 3 }}  style={{ fontFamily: 'GlacialIndifference-Bold' , }}>
+        <Typography variant="h5" compact="h5" sx={{ color: "#014725", letterSpacing: 3 }} style={{ fontFamily: 'GlacialIndifference-Bold', }}>
           VIRTUAL HACKATHON
         </Typography>
       </Grid>
-      <Grid  item xs={12} align="center" spacing={10}>
-        <Typography variant="h6" compact="h6" sx={{ color: "#014725", letterSpacing: 3, paddingTop: 3}} style={{ fontFamily: 'GlacialIndifference-Bold', }}>
+      <Grid item xs={12} align="center" spacing={10}>
+        <Typography variant="h6" compact="h6" sx={{ color: "#014725", letterSpacing: 3, paddingTop: 3 }} style={{ fontFamily: 'GlacialIndifference-Bold', }}>
           MARCH 3-5
         </Typography>
       </Grid>
-      <Grid item xs={12} align="center" sx={{paddingTop: 3}}>
+      <Grid item xs={12} align="center" sx={{ paddingTop: 3 }}>
         <Button
           sx={{
             color: '#014725',
@@ -52,29 +58,29 @@ function App() {
           Register
         </Button>
       </Grid>
-      <Grid  item xs={12} align="left" sx={{paddingLeft: 10, paddingRight: 10, paddingTop: 15}}>
-      <Typography variant="h5" compact="h5" sx={{ color: "#014725", }}  style={{ fontFamily: 'SIFFON_BASIC', fontSize: "2em"}}>
-        What is WayneHacks?
+      <Grid item xs={12} align="left" sx={{ paddingLeft: 10, paddingRight: 10, paddingTop: 15 }}>
+        <Typography variant="h5" compact="h5" sx={{ color: "#014725", }} style={{ fontFamily: 'SIFFON_BASIC', fontSize: "2em" }}>
+          What is WayneHacks?
         </Typography>
       </Grid>
-      <Grid  item xs={12} align="left" sx={{paddingLeft: 10, paddingRight: 10}}>
-        <Typography variant="h6" compact="h6" sx={{ color: "#014725", paddingTop: 2}} style={{ fontFamily: 'GlacialIndifference-Regular', }}>
-        WayneHacks is a 48-hour virtual hackathon taking place March 3-5! Hackers will have 48 hours to complete a project related to the theme given at the opening ceremony. WayneHacks will also host workshops and 2 gaming tournaments during the event! Prizes will be given out at the end to the top 3 hacks and all hackers who submit a hack will be entered into a raffle for any left over prizes!  Prizes will also be given out to the winners of the game tournaments. Want to attend? Click the button above to register! 
+      <Grid item xs={12} align="left" sx={{ paddingLeft: 10, paddingRight: 10 }}>
+        <Typography variant="h6" compact="h6" sx={{ color: "#014725", paddingTop: 2 }} style={{ fontFamily: 'GlacialIndifference-Regular', }}>
+          WayneHacks is a 48-hour virtual hackathon taking place March 3-5! Hackers will have 48 hours to complete a project related to the theme given at the opening ceremony. WayneHacks will also host workshops and 2 gaming tournaments during the event! Prizes will be given out at the end to the top 3 hacks and all hackers who submit a hack will be entered into a raffle for any left over prizes!  Prizes will also be given out to the winners of the game tournaments. Want to attend? Click the button above to register!
         </Typography>
       </Grid>
-      <Grid  item xs={12} align="left" sx={{paddingLeft: 10, paddingRight: 10, paddingTop: 15}}>
-      <Typography variant="h5" compact="h5" sx={{ color: "#014725", }}  style={{ fontFamily: 'SIFFON_BASIC', fontSize: "2em"}}>
-        FAQs
+      <Grid item xs={12} align="left" sx={{ paddingLeft: 10, paddingRight: 10, paddingTop: 15 }}>
+        <Typography variant="h5" compact="h5" sx={{ color: "#014725", }} style={{ fontFamily: 'SIFFON_BASIC', fontSize: "2em" }}>
+          FAQs
         </Typography>
       </Grid>
-      <Grid  item xs={12} align="left" sx={{paddingLeft: 10, paddingRight: 10}}>
-        <Typography variant="h6" compact="h6" sx={{ color: "#014725", paddingTop: 2}} style={{ fontFamily: 'GlacialIndifference-Regular', }}>
-        COMING SOON
+      <Grid item xs={12} align="left" sx={{ paddingLeft: 10, paddingRight: 10 }}>
+        <Typography variant="h6" compact="h6" sx={{ color: "#014725", paddingTop: 2 }} style={{ fontFamily: 'GlacialIndifference-Regular', }}>
+          COMING SOON
         </Typography>
       </Grid>
-      
+
     </Grid>
-    
+
   )
 }
 
