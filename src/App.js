@@ -2,6 +2,7 @@ import * as React from "react";
 import Grid from '@mui/material/Grid'
 import Button from '@mui/material/Button'
 import Typography from "@mui/material/Typography";
+import Icon from '@mui/material/Icon'
 import './App.css';
 import { borderLeft } from "@mui/system";
 import { Fade, Grow } from "@mui/material";
@@ -87,6 +88,11 @@ function App() {
             <Typography variant="h6" compact="h6" sx={{ color: "#1bf58b", paddingTop: 2 }} style={{ fontFamily: 'GlacialIndifference-Regular', }}>
      
               More FAQs Coming Soon
+            </Typography>
+          </Grid>
+          <Grid item xs={12} align="left" sx={{ gridArea: 'footer', paddingTop: 15, paddingLeft: 10, paddingRight: 10, paddingBottom: 5 }}>
+            <Typography variant="h6" compact="h6" sx={{ color: "#1bf58b", paddingTop: 2 }} style={{ fontFamily: 'GlacialIndifference-Bold', letterSpacing: 1, fontSize:"1em"}}>
+            &copy; WayneHacks 2023
             </Typography>
           </Grid>
         </div>
