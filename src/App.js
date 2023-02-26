@@ -2,9 +2,7 @@ import * as React from "react";
 import Grid from '@mui/material/Grid'
 import Button from '@mui/material/Button'
 import Typography from "@mui/material/Typography";
-import Icon from '@mui/material/Icon'
 import './App.css';
-import { borderLeft } from "@mui/system";
 import { Fade, Grow } from "@mui/material";
 import QA from "./comps/QA";
 
@@ -74,40 +72,43 @@ function App() {
             <Button sx={BtnStyling} target="_blank" variant="contained" href="https://waynehacks.devpost.com/">DevPost</Button>
           </Grid>
           <Grid item xs={12} align="left" sx={{ paddingLeft: 10, paddingRight: 10, paddingTop: 15 }}>
-            <Typography variant="h5" compact="h5" sx={{ color: mainColor, }} style={{ fontFamily: 'SIFFON_BASIC', fontSize: "2em" }}>
+            <Typography variant="h5" compact="h5" sx={{ color: mainColor, }} 
+            style={{ fontFamily: 'SIFFON_BASIC', fontSize: "2em" }}>
               What is WayneHacks?
             </Typography>
           </Grid>
           <Grid item xs={12} align="left" sx={{ paddingLeft: 10, paddingRight: 10 }}>
-            <Typography variant="h6" compact="h6" sx={{ color: mainColor, paddingTop: 2 }} style={{ fontFamily: 'GlacialIndifference-Regular', }}>
+            <Typography variant="h6" compact="h6" sx={{ color: mainColor, paddingTop: 2 }} 
+            style={{ fontFamily: 'GlacialIndifference-Regular', }}>
               WayneHacks is a 48-hour virtual hackathon taking place March 3-5! Hackers will have 48 hours to complete a project related to the theme given at the opening ceremony. WayneHacks will also host workshops and 2 gaming tournaments during the event! Prizes will be given out at the end to the top 3 hacks and all hackers who submit a hack will be entered into a raffle for any left over prizes!  Prizes will also be given out to the winners of the game tournaments. Want to attend? Click the button above to register!
             </Typography>
           </Grid>
           <Grid item xs={12} align="left" sx={{ paddingLeft: 10, paddingRight: 10, paddingTop: 15 }}>
-            <Typography variant="h5" compact="h5" sx={{ color: mainColor, }} style={{ fontFamily: 'SIFFON_BASIC', fontSize: "2em" }}>
+            <Typography variant="h5" compact="h5" sx={{ color: mainColor, }} 
+            style={{ fontFamily: 'SIFFON_BASIC', fontSize: "2em" }}>
               FAQs
             </Typography>
           </Grid>
           <Grid item xs={12} align="left" sx={{ paddingLeft: 10, paddingRight: 10 }}>
-            <Typography variant="h6" compact="h6" sx={{ color: mainColor, paddingTop: 2 }} style={{ fontFamily: 'GlacialIndifference-Regular', }}>
-              Contact us at info@waynehacks.com
-
+            <Typography variant="h6" compact="h6" sx={{ color: mainColor, paddingTop: 2 }} 
+            style={{ fontFamily: 'GlacialIndifference-Regular', }}>
+              {/* <QA question="How long is this hackathon?" answer="48 Hours"/> */}
+              <QA question="How much in prizes are awarded?" answer="$5000 in prizes!" />
             </Typography>
-            <Typography variant="h6" compact="h6" sx={{ color: mainColor, paddingTop: 2 }} style={{ fontFamily: 'GlacialIndifference-Regular', }}>
-
-              More FAQs Coming Soon
-            <QA question="How long is this hackathon?" answer="48 Hours"/>
-            <QA question="How much in prizes are awarded?" answer="$5000 in prizes!"/>
+            <Typography variant="h6" compact="h6" sx={{ color: mainColor, paddingTop: 2 }} 
+            style={{ fontFamily: 'GlacialIndifference-Regular', }}>
+              Contact us at <a style={{ color: mainColor }} href="mailto:info@waynehacks.com" 
+              target="_blank" rel="noreferrer noopener">info@waynehacks.com</a>
             </Typography>
           </Grid>
           <Grid item xs={12} align="left" sx={{ gridArea: 'footer', paddingTop: 15, paddingLeft: 10, paddingRight: 10, paddingBottom: 5 }}>
-            <Typography variant="h6" compact="h6" sx={{ color: mainColor, paddingTop: 2 }} style={{ fontFamily: 'GlacialIndifference-Bold', letterSpacing: 1, fontSize: "1em" }}>
+            <Typography variant="h6" compact="h6" sx={{ color: mainColor, paddingTop: 2 }} 
+            style={{ fontFamily: 'GlacialIndifference-Bold', letterSpacing: 1, fontSize: "1em" }}>
               &copy; WayneHacks 2023
             </Typography>
           </Grid>
         </div>
       </Fade>
-
     </Grid>
 
   )
