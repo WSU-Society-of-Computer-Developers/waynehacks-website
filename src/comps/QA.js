@@ -15,10 +15,10 @@ import { Add as AddIcon } from '@mui/icons-material';
  * React component for question and answers in MUI accordions
  * @param {QAProps} props
 */
-export default function QA({question, answer}) {
+export default function QA({ question, answer }) {
     return (
         <div style={{ width: "100%" }}>
-            <Accordion sx={{ background: "rgba(74, 199, 101,0.2)", color: "white" }}>
+            <Accordion sx={{ background: "rgba(65, 190, 92,0.15)", color: "white" }}>
                 <AccordionSummary
                     expandIcon={<AddIcon sx={{ color: "white" }} />}
                     aria-controls="panel1a-content"
@@ -27,7 +27,7 @@ export default function QA({question, answer}) {
                     <Typography variant="h6" compact="h6" style={{ fontFamily: 'GlacialIndifference-Regular', }}>{question}</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <Typography>
+                    <Typography variant="body1" color={"lightgray"}>
                         {answer}
                     </Typography>
                 </AccordionDetails>
