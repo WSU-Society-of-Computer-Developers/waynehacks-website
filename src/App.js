@@ -94,7 +94,7 @@ function App() {
               style={{ fontFamily: 'GlacialIndifference-Regular', }}>
               <QA question="What is a Hackathon?" answer="A hackathon is an event where programmers get together for a short period of time to collaborate and create a project! The theme will be announced at the opening ceremony, and hackers will have 36 hours to complete a project related to it. Attending these events and participating is a great resume booster!" />
               <QA question="I am a beginner and don't know how to code, can I still participate?" answer="Anyone can participate! We welcome all beginners to experts in development. Hackathons are a perfect place to learn new skills and find out what it takes to build an application!" />
-              <QA question="Where is WayneHacks" answer="Online through the Discord platform. We will be sending invites out soon. Stay tuned!" />
+              <QA question="Where is WayneHacks?" answer="Online through the Discord platform. We will be sending invites out soon. Stay tuned!" />
               <QA question="Can I work alone or in a team?" answer="Teams can consist of 1-4 members. Don't worry if you do not have a team! We will have a section in the Hackathon Discord Server to find team members." />
               <QA question="I signed up...now what?" answer="Be on the lookout for an email a week before the Hackathon to join our Discord Server. We will use this for members looking for a group, updates, and announcements throughout the Hackathon!" />
               <QA question="How much in prizes are awarded?" answer="$5000 in prizes!" />
