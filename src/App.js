@@ -92,7 +92,6 @@ function App() {
           <Grid item xs={12} align="left" sx={{ paddingLeft: 10, paddingRight: 10 }}>
             <Typography variant="h6" compact="h6" sx={{ color: mainColor, paddingTop: 2 }}
               style={{ fontFamily: 'GlacialIndifference-Regular', }}>
-              {/* <QA question="How long is this hackathon?" answer="48 Hours"/> */}
               <QA question="What is a Hackathon?" answer="A hackathon is an event where programmers get together for a short period of time to collaborate and create a project! The theme will be announced at the opening ceremony, and hackers will have 36 hours to complete a project related to it. Attending these events and participating is a great resume booster!" />
               <QA question="I am a beginner and don't know how to code, can I still participate?" answer="Anyone can participate! We welcome all beginners to experts in development. Hackathons are a perfect place to learn new skills and find out what it takes to build an application!" />
               <QA question="Where is WayneHacks" answer="Online through the Discord platform. We will be sending invites out soon. Stay tuned!" />
