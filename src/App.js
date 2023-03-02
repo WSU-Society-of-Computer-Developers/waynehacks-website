@@ -20,6 +20,8 @@ const classes = {
 const BtnStyling = {
   color: '#014725',
   backgroundColor: 'white',
+  fontFamily: 'GlacialIndifference-Bold',
+  letterSpacing: "1.5px",
   opacity: .9,
   fontSize: "1.6em",
   borderColor: '#014725',
