@@ -62,14 +62,14 @@ function App() {
               MARCH 3-5
             </Typography>
           </Grid>
-          <Grid item xs={12} align="center" sx={{ paddingTop: 3 }}>
+          {/* <Grid item xs={12} align="center" sx={{ paddingTop: 3 }}>
             <Button
               sx={BtnStyling}
               variant="contained"
               href="https://forms.gle/f9NVtme9KLDUFp4c8" target="_blank">
               Register
             </Button>
-          </Grid>
+          </Grid> */}
           <Grid item xs={12} align="center" sx={{ paddingTop: 3 }}>
             <Button sx={BtnStyling} target="_blank" variant="contained" href="https://waynehacks.devpost.com/">DevPost</Button>
           </Grid>
